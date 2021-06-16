@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AtlantApp</string>
+    <string name="auth_email_hint">Enter email</string>
+    <string name="auth_pw_hint">Enter password</string>
+    <string name="auth_sign_in">Sign in</string>
+    <string name="auth_invalid_credentials">Invalid credentials</string>
+    <string name="error_general_message">Something went wrong, please try again</string>
+    <string name="error_profile_not_found">Profile not found</string>
+    <string name="main_blockchain">Blockchain list</string>
+    <string name="main_start">Start</string>
+    <string name="main_stop">Stop</string>
+    <string name="main_clear">Clear</string>
+    <string name="main_logout">Logout</string>
+    <string name="main_total_format">Total: %s</string>
+    <string name="main_address_format">Address: %s</string>
+    <string name="main_value_format">Value: %s</string>
+    <string name="main_empty_data">No transactions yet</string>
+</resources>

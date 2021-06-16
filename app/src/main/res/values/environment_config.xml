@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="baseUrl">https://dev.karta.com/api/</string>
+    <string name="ws_url">wss://ws.blockchain.info/inv</string>
+<!--    <string name="ws_url">wss://ws.prod.blockchain.info/mercury-gateway/v1/ws</string>-->
+    <string name="ws_api_key" tools:ignore="TypographyDashes">61eefcd4-e758-4c6e-99ca-3851ec412894</string>
+    <string name="ws_api_secret">eyJhbGciOiJFUzI1NiIsInR5cCI6IkFQSSJ9.eyJhdWQiOiJtZXJjdXJ5IiwidWlkIjoiZDczNDRkYTYtNTQ5MS00MTU2LWIwODQtNDI3Y2E1YmFjODE4IiwiaXNzIjoiYmxvY2tjaGFpbiIsInJkbyI6dHJ1ZSwiaWF0IjoxNjIxNjg4Mjg5LCJqdGkiOiI2MWVlZmNkNC1lNzU4LTRjNmUtOTljYS0zODUxZWM0MTI4OTQiLCJzZXEiOjQ1NDMyNzksIndkbCI6ZmFsc2V9.H398GyrEONSdV6BtlkcG1rMLC/SIqxiICtOj2RRSz56OWjmpsXlDbnnfgA20m43vuZD1SjolBQj++5SDMz7g/g4=</string>
+    <string name="sessionId" tools:ignore="TypographyDashes">bcd4f3f6-a302-45ec-a17c-69f09c72eb0d</string>
+</resources>
