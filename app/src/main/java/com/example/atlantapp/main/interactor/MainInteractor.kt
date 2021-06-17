@@ -18,7 +18,7 @@ class MainInteractor(
         mainLocalRepository.addTransaction(transaction)
     }
 
-    fun getTransactionsFLow(): Flow<List<Transaction>> = mainLocalRepository.getTransactionsFLow()
+    fun getTransactionsFlow(): Flow<List<Transaction>> = mainLocalRepository.getTransactionsFlow()
 
     fun clearMemory() {
         mainLocalRepository.clear()

@@ -36,6 +36,7 @@ class TokenAuthenticator : Authenticator, KoinComponent {
             }
 
             // Refresh your access_token using a synchronous api request
+            tokenProvider.token = ""
             val token = authInteractor.refreshToken()
             retryRejectedRequest(request, token)
         }

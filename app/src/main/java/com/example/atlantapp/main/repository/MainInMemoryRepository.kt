@@ -14,7 +14,7 @@ class MainInMemoryRepository : MainLocalRepository {
         transactionsFlow.emit(transactions)
     }
 
-    override fun getTransactionsFLow(): Flow<List<Transaction>> = transactionsFlow
+    override fun getTransactionsFlow(): Flow<List<Transaction>> = transactionsFlow
 
     override fun clear() {
         transactionsFlow.value = emptyList()

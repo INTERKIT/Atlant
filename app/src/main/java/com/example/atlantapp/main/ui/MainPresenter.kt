@@ -44,7 +44,7 @@ class MainPresenter(
 
     override fun loadTransactions() {
         launch {
-            mainInteractor.getTransactionsFLow().collectLatest { transactions ->
+            mainInteractor.getTransactionsFlow().collectLatest { transactions ->
                 view?.showTransactions(transactions)
 
                 if (transactions.isNotEmpty()) {
